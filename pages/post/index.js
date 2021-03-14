@@ -1,12 +1,8 @@
-import Head from 'next/head';
 import {MainLayout} from "../../Components/layouts";
 
 export default function Post () {
     return (
-        <MainLayout>
-            <Head>
-                <title> NextJS | post page default </title>
-            </Head>
+        <MainLayout title='post page default'>
             <h1>Default page for post without id</h1>
         </MainLayout>
     )

@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Пост о жизни после фронтенда",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti modi veniam voluptates voluptatum? Asperiores aut culpa doloremque ea fugiat id itaque labore nihil, possimus quaerat quam quidem repellat rerum unde?"
+    },
+    {
+      "id": 2,
+      "title": "Пост о жизни до фронтенда",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti modi veniam voluptates voluptatum? Asperiores aut culpa doloremque ea fugiat id itaque labore nihil, possimus quaerat quam quidem repellat rerum unde?"
+    },
+    {
+      "id": 3,
+      "title": "Пост о жизни в фронтенде",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti modi veniam voluptates voluptatum? Asperiores aut culpa doloremque ea fugiat id itaque labore nihil, possimus quaerat quam quidem repellat rerum unde?"
+    }
+  ],
+  "about": {
+    "title": "О компании",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti modi veniam voluptates voluptatum? Asperiores aut culpa doloremque ea fugiat id itaque labore nihil, possimus quaerat quam quidem repellat rerum unde?"
+  }
+}

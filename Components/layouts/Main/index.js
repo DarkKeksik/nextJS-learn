@@ -1,8 +1,12 @@
 import Link from "next/link";
+import Head from "next/head";
 
-export default ({ children }) => {
+const MainLayout = ({ children, title }) => {
     return (
         <>
+            <Head>
+                <title>{` NextJS | ${ title }`}</title>
+            </Head>
             <nav>
                 <Link href={'/'}><a>Home</a></Link>
                 <Link href={'/posts'}><a>Posts</a></Link>
@@ -13,3 +17,5 @@ export default ({ children }) => {
         </>
     )
 }
+
+export default MainLayout;
