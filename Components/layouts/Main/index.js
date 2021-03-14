@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 
-const MainLayout = ({ children, title }) => {
+const MainLayout = ({ children, title = "It's cool!" }) => {
     return (
         <>
             <Head>
